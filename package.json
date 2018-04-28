@@ -1,7 +1,7 @@
 {
   "name": "javascriptclasseshw",
   "version": "1.0.0",
-  "description": "",
+  "description": "WordGuess-Node App",
   "main": "ANChar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghSB17/WordGuess.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/ghSB17/WordGuess/issues"
+  },
+  "homepage": "https://github.com/ghSB17/WordGuess#readme"
 }

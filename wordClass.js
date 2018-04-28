@@ -10,7 +10,7 @@ function toANCharacterArray( wordString ){
         }
         anArray.push(anChar);
     }
-    console.log(anArray); 
+    // console.log(anArray); 
     return anArray;
 };
 
@@ -26,7 +26,7 @@ wordObject.prototype.wordGuessed = function() {
         if(!this.wordArr[k].guessed)
             counter++;
     }
-    console.log('Counter:'+counter);
+    // console.log('Counter:'+counter);
     if( counter>0 )
         return false;
     else
